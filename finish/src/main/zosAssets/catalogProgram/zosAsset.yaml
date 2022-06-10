@@ -1,7 +1,7 @@
 ---
 version: 1.0
 type: "cicsCommarea-1.0"
-description: ""
+description: "CICS Catalog Manager"
 providerProperties:
   transidUsage: ""
   language: "COBOL"
