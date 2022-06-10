@@ -4,8 +4,8 @@ metadata:
 projects:
   - name: catalog-manager-api
     source:
-      location: 'https://github.com/zosconnect/sample-cics-api.git'
-      type: github
+      location: 'git@github.com:ibmgeorge/zcee-sample-cics-api3.git'
+      type: git
       branch: main
       sparseCheckoutDir: finish
 components:
@@ -21,7 +21,7 @@ components:
     env:
       - name: ZCON_DESIGNER_PROJECT
         value: /projects/catalog-manager-api/finish
-    memoryLimit: 4927M
+    memoryLimit: 1024M
     type: dockerimage
     image: 'icr.io/zosconnect/ibm-zcon-designer:3.0.56'
     alias: zosconnect
